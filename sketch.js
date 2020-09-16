@@ -73,10 +73,10 @@ function draw() {
 
     count=count+Math.round(getFrameRate()/60);
     if(keyDown("space") && trex.y >= 161) {
-      trex.velocityY = -10;
+      trex.velocityY = -12;
     }
     if(keyDown("up_arrow") && trex.y >= 161) {
-      trex.velocityY = -50;
+      trex.velocityY = -12;
     }
     if(keyDown("down_arrow") && trex.y >= 161) {
       trex.changeAnimation("ducking",dinoducking);
